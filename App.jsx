@@ -81,7 +81,7 @@ const Layout = ({ children }) => {
 function App() {
     return (
         <AuthProvider>
-            <Router basename="/https-github.com-deepfake-hunter">
+            <Router>
                 <Layout>
                     <Routes>
                         <Route path="/login" element={<Login />} />
